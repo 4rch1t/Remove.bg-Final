@@ -1,0 +1,46 @@
+=<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AKS remove.bg</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo-container">
+      <img src="logo.png" alt="Logo" class="logo">
+    </div>
+    <nav class="nav">
+      <a href="#">Remove Background</a>
+      <div class="dropdown">
+        <button class="dropbtn">Features</button>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">For Business</button>
+      </div>
+      <a href="#">Pricing</a>
+    </nav>
+    <div class="profile">
+      <div class="profile-circle">AKS</div>
+    </div>
+  </header>
+
+  <div class="main-container">
+    <div class="container">
+      <h1>Remove Image Background</h1>
+      
+      <label for="fileInput" class="upload-btn">Upload Image</label>
+      <input type="file" id="fileInput" accept="image/*" hidden>
+      
+      <img id="previewImage" class="hidden" alt="Uploaded Image Preview">
+      
+      <button id="removeBtn">Remove Background</button>
+
+      <a id="downloadLink" class="hidden" download="edited_image.png">Download Image</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
